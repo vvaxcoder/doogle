@@ -15,8 +15,10 @@
         </div>
 
         <div class="search-container">
-            <input type="text" class="search-box" name="term">
-            <input type="submit" class="search-button" value="Search" placeholder="Enter a search text">
+            <form action="search.php" method="GET">
+                <input type="text" class="search-box" name="term">
+                <input type="submit" class="search-button" value="Search" placeholder="Enter a search text">
+            </form>
         </div>
     </div>
 </body>
