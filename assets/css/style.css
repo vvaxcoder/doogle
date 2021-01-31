@@ -60,3 +60,30 @@ html, body {
     color: #757575;
     outline: none;
 }
+
+.main-section .search-container .search-box {
+    font-size: 16px;
+
+    height: 44px;
+    width: 70%;
+    min-width: 630px;
+
+    padding: 10px;
+
+    border: none;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+    border-radius: 2px;
+    outline: none;
+    box-sizing: border-box;
+    color: #000;
+}
+
+.main-section .logo-container {
+    width: 220px;
+
+    text-align: center;
+}
+
+.logo-container {
+    width: 100%;
+}

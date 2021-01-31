@@ -11,9 +11,9 @@
     <div class="wrapper index-page">
         <div class="main-section">
             <div class="logo-container">
-                <img src="https://www.gstatic.com/images/branding/googlelogo/1x/googlelogo_color_92x36dp.png" 
+                <img src="assets/images/doodleLogo.png" 
                     alt="doogle logo" 
-                    srcset="https://www.gstatic.com/images/branding/googlelogo/1x/googlelogo_color_92x36dp.png">
+                    srcset="assets/images/doodleLogo.png">
             </div>
 
             <div class="search-container">
