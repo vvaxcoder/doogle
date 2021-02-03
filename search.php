@@ -22,7 +22,10 @@
                     <div class="search-bar-container">
                         <input type="text" class="searchbox" name="term">
 
-                        <button>Search</button>
+                        <button class="search-button">
+                            <img src="assets/images/icons/search.png" alt="search icon" 
+                                srcset="assets/images/icons/search.png">
+                        </button>
                     </div>
                 </form>
             </div>
