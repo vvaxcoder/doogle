@@ -147,3 +147,26 @@ html, body {
 .search-button img {
 	width: 22px
 }
+
+.tabs-container {
+    margin-left: 150px;
+}
+
+.tabs-container .tab-list {
+    margin: 0;
+    padding: 0;
+}
+
+.tabs-container .tab-list li {
+    font-size: 13px;
+
+    display: inline-block;
+
+    padding: 0 16px 12px 16px;
+
+    color: #777;
+}
+
+.tabs-container .tab-list li a {
+    text-decoration: none;
+}
