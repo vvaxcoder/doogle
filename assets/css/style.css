@@ -52,10 +52,9 @@ html, body {
     height: 36px;
     width: 125px;
 
-    margin-top: 20px;
-
     background: #f5f5f5;
     border-radius: 1px;
+    border: none;
     cursor: pointer;
     color: #757575;
     outline: none;
@@ -89,6 +88,10 @@ html, body {
 }
 
 .header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
     background: #fafafa;
     border-bottom: 1px solid #ebebeb;
 }
