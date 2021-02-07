@@ -1,6 +1,9 @@
 <?php
     include("classes/DomDocumentParser.php");
 
+    $alreadyCrawled = array();
+    $crawling = array();
+
     function createLink($src, $url) {
         $scheme = parse_url($url)["scheme"];
         $host = parse_url($url)["host"];
@@ -25,8 +28,12 @@
     }
 
     function followLinks($url) {
+        global $alreadyCrawled;
+        global $crawling;
+
         $parser = new DomDocumentParser($url);
-        $linkParser = $parser->getLinks();
+
+        $linkList = $parser->getLinks();
 
         foreach($linkList as $link) {
             $href = $link->getAttribute("href");
@@ -37,9 +44,21 @@
             else if(substr($href, 0, 11) == "javascript:") {
                 continue;
             }
-    
+
             $href = createLink($href, $url);
+
+            if(!in_array($href, $alreadyCrawled)) {
+                $alreadyCrawled[] = $href;
+                $crawling[] = $href;
+            }
+
             echo $href . "<br>";
+        }
+
+        array_shift($crawling);
+
+        foreach($crawling as $site) {
+            followLinks($site);
         }
     }
 
