@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Search the web for sites and images.">
+    <meta name="keywords" content="Search engine, doodle, websites">
+    <meta name="author" content="Valerii Voronkov">
     <title>Welcome to Doodle</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
