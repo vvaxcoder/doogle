@@ -1,4 +1,6 @@
 <?php
+    include("config.php");
+
     if (isset($_GET["term"])) {
         $term = $_GET["term"];
     }
@@ -16,14 +18,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Welcome to Doodle</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
     <div class="wrapper">
         <div class="header">
             <div class="logo-container">
                 <a href="index.php">
-                    <img src="assets/images/doodleLogo.png" alt="doodle logo" 
+                    <img src="assets/images/doodleLogo.png" alt="doodle logo"
                         srcset="assets/images/doodleLogo.png">
                 </a>
             </div>

@@ -42,13 +42,13 @@
             return;
         }
 
-        $descripion = "";
+        $description = "";
         $keywords = "";
         $metasArray = $parser->getMetaTags();
 
         foreach($metasArray as $meta) {
             if ($meta->getAttribute("name") == "description") {
-                $descripion = $meta->getAttribute("content");
+                $description = $meta->getAttribute("content");
             }
 
             if ($meta->getAttribute("name") == "keywords") {
@@ -58,7 +58,7 @@
 
         $description = str_replace("\n", "", $description);
         $keywords = str_replace("\n", "", $keywords);
-        echo "URL: $url, Description: $descripion, keywords: $keywords<br>";
+        echo "URL: $url, Description: $description, keywords: $keywords<br>";
     }
 
     function followLinks($url) {

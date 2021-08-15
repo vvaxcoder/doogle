@@ -15,7 +15,7 @@
             return $this->doc->getElementsByTagName("a");
         }
 
-        public function getTitletags() {
+        public function getTitleTags() {
             return $this->doc->getElementsByTagName("title");
         }
 
@@ -23,4 +23,3 @@
             return $this->doc->getElementsByTagName("meta");
         }
     }
-?>
