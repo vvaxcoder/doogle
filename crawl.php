@@ -1,8 +1,23 @@
 <?php
+    include("config.php");
     include("classes/DomDocumentParser.php");
 
     $alreadyCrawled = array();
     $crawling = array();
+
+    function insertLink($url, $title, $description, $keywords) {
+        global $con;
+
+        $query = $con->prepare("INSERT INTO sites(url, title, description, keywords)
+                                       VALUES(:url, :title, :description, :keywords)");
+
+        $query->bindParam(":url", $url);
+        $query->bindParam(":title", $title);
+        $query->bindParam(":description", $description);
+        $query->bindParam(":keywords", $keywords);
+
+        return $query->execute();
+    }
 
     function createLink($src, $url) {
         $scheme = parse_url($url)["scheme"];
@@ -59,6 +74,8 @@
         $description = str_replace("\n", "", $description);
         $keywords = str_replace("\n", "", $keywords);
         echo "URL: $url, Description: $description, keywords: $keywords<br>";
+
+        insertLink($url,$title, $description, $keywords);
     }
 
     function followLinks($url) {
