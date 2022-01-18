@@ -1,5 +1,5 @@
 <style><?php include "assets/css/style.css"; ?></style>
-<img src="<?php echo file_get_contents("assets/images/doodleLogo.png") ; ?>">
+<!--<img src="--><?php //echo file_get_contents("assets/images/doodleLogo.png") ; ?><!--">-->
 
 <!DOCTYPE html>
 <html lang="en">
