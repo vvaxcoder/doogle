@@ -19,10 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b76705a-f893-45e2-b15e-2699c3c2fd68" name="Default Changelist" comment="Continue working on the project">
+    <list default="true" id="7b76705a-f893-45e2-b15e-2699c3c2fd68" name="Default Changelist" comment="Insert files into the sites table Need fix not working right now">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawl.php" beforeDir="false" afterPath="$PROJECT_DIR$/crawl.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +44,8 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../KSI_CORP/GamePlace" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../KSI_CORP/starz57" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -62,7 +62,9 @@
       <workItem from="1627737186669" duration="705000" />
       <workItem from="1629017667552" duration="2241000" />
       <workItem from="1629021474033" duration="4143000" />
-      <workItem from="1642526275513" duration="2477000" />
+      <workItem from="1642526275513" duration="3600000" />
+      <workItem from="1642529968692" duration="33000" />
+      <workItem from="1642607490926" duration="2454000" />
     </task>
     <task id="LOCAL-00001" summary="Creating sites table, add sql script.">
       <created>1627241861656</created>
@@ -78,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642526581580</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Insert files into the sites table Need fix not working right now">
+      <created>1642529055437</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1642529055437</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,28 +108,21 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creating sites table, add sql script." />
     <MESSAGE value="Continue working on the project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Continue working on the project" />
+    <MESSAGE value="Insert files into the sites table Need fix not working right now" />
+    <option name="LAST_COMMIT_MESSAGE" value="Insert files into the sites table Need fix not working right now" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="256" y="381" width="1397" height="294" key="#SQL_Dialects" timestamp="1627240583442">
+    <state x="555" y="42" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1642607880202">
       <screen x="0" y="27" width="1920" height="692" />
     </state>
-    <state x="256" y="381" width="1397" height="294" key="#SQL_Dialects/0.27.1920.692/1920.0.1360.768@0.27.1920.692" timestamp="1627240583442" />
-    <state x="555" y="42" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1627240787570">
+    <state x="555" y="42" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.692/1920.0.1360.768@0.27.1920.692" timestamp="1642607880202" />
+    <state x="743" y="235" width="424" height="484" key="FileChooserDialogImpl" timestamp="1642529998467">
       <screen x="0" y="27" width="1920" height="692" />
     </state>
-    <state x="555" y="42" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.692/1920.0.1360.768@0.27.1920.692" timestamp="1627240787570" />
-    <state x="743" y="235" width="424" height="484" key="FileChooserDialogImpl" timestamp="1627400928783">
+    <state x="743" y="235" width="424" height="484" key="FileChooserDialogImpl/0.27.1920.692/1920.0.1360.768@0.27.1920.692" timestamp="1642529998467" />
+    <state x="555" y="191" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1642529065049">
       <screen x="0" y="27" width="1920" height="692" />
     </state>
-    <state x="743" y="235" width="424" height="484" key="FileChooserDialogImpl/0.27.1920.692/1920.0.1360.768@0.27.1920.692" timestamp="1627400928783" />
-    <state x="755" y="453" width="399" height="149" key="NewPhpFileDialog" timestamp="1627240857456">
-      <screen x="0" y="27" width="1920" height="692" />
-    </state>
-    <state x="755" y="453" width="399" height="149" key="NewPhpFileDialog/0.27.1920.692/1920.0.1360.768@0.27.1920.692" timestamp="1627240857456" />
-    <state x="449" y="27" width="1012" height="692" key="SettingsEditor" timestamp="1629024341215">
-      <screen x="0" y="27" width="1920" height="692" />
-    </state>
-    <state x="449" y="27" width="1012" height="692" key="SettingsEditor/0.27.1920.692/1920.0.1360.768@0.27.1920.692" timestamp="1629024341215" />
+    <state x="555" y="191" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1920.692/1920.0.1360.768@0.27.1920.692" timestamp="1642529065049" />
   </component>
 </project>

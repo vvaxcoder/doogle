@@ -2,7 +2,7 @@
 ob_start();
 
 try {
-    $con = new PDO("mysql:dbname=doogle;host=localhost", "root", "123456");
+    $con = new PDO("mysql:dbname=doogle;host=127.0.0.1", "root", "123456");
     $con->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING);
 }
 catch (PDOException $e) {
