@@ -19,9 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b76705a-f893-45e2-b15e-2699c3c2fd68" name="Default Changelist" comment="Insert files into the sites table Need fix not working right now">
+    <list default="true" id="7b76705a-f893-45e2-b15e-2699c3c2fd68" name="Default Changelist" comment="Now it works. How do I solved it? I haven't php-mysql module in my system: sudo apt install php-mysql&#10;and change in config.php localhost-&gt;127.0.0.1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawl.php" beforeDir="false" afterPath="$PROJECT_DIR$/crawl.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +64,7 @@
       <workItem from="1629021474033" duration="4143000" />
       <workItem from="1642526275513" duration="3600000" />
       <workItem from="1642529968692" duration="33000" />
-      <workItem from="1642607490926" duration="2454000" />
+      <workItem from="1642607490926" duration="5896000" />
     </task>
     <task id="LOCAL-00001" summary="Creating sites table, add sql script.">
       <created>1627241861656</created>
@@ -87,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642529055437</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Now it works. How do I solved it? I haven't php-mysql module in my system: sudo apt install php-mysql&#10;and change in config.php localhost-&gt;127.0.0.1">
+      <created>1642611358583</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1642611358583</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,7 +116,8 @@
     <MESSAGE value="Creating sites table, add sql script." />
     <MESSAGE value="Continue working on the project" />
     <MESSAGE value="Insert files into the sites table Need fix not working right now" />
-    <option name="LAST_COMMIT_MESSAGE" value="Insert files into the sites table Need fix not working right now" />
+    <MESSAGE value="Now it works. How do I solved it? I haven't php-mysql module in my system: sudo apt install php-mysql&#10;and change in config.php localhost-&gt;127.0.0.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Now it works. How do I solved it? I haven't php-mysql module in my system: sudo apt install php-mysql&#10;and change in config.php localhost-&gt;127.0.0.1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="555" y="42" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1642607880202">
