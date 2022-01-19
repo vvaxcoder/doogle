@@ -19,6 +19,7 @@
         <div class="main-section">
             <div class="logo-container">
                 <img src="assets/images/doodleLogo.png"
+                     title="Doogle logo"
                     alt="doogle logo"
                     srcset="assets/images/doodleLogo.png">
             </div>
